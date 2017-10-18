@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DragAndDropCollectionView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DragAndDropCollectionView.'
+  s.summary          = 'DragAndDropCollectionView is an extended UICollectionView from which you can drag and drop cells.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,9 +18,11 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+DragAndDropCollectionView is an extended UICollectionView from which you can drag and drop cells.
+Requires Xcode 9 with Swift 4.0
                        DESC
 
+  s.requires_arc = true
   s.homepage         = 'https://github.com/RupeQ/DragAndDropCollectionView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -31,6 +33,9 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'DragAndDropCollectionView/Classes/**/*'
+  s.pod_target_xcconfig =  {
+      'SWIFT_VERSION' => '4.0',
+  }
   
   # s.resource_bundles = {
   #   'DragAndDropCollectionView' => ['DragAndDropCollectionView/Assets/*.png']

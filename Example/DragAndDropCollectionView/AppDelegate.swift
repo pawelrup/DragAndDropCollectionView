@@ -1,9 +1,8 @@
 //
 //  AppDelegate.swift
-//  DragAndDropCollectionView
 //
-//  Created by RupeQ on 10/18/2017.
-//  Copyright (c) 2017 RupeQ. All rights reserved.
+//  Created by Paweł Rup on 18.10.2017.
+//  Copyright © 2017 lobocode. All rights reserved.
 //
 
 import UIKit

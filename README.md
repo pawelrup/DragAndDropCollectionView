@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/DragAndDropCollectionView.svg?style=flat)](http://cocoapods.org/pods/DragAndDropCollectionView)
 [![License](https://img.shields.io/cocoapods/l/DragAndDropCollectionView.svg?style=flat)](http://cocoapods.org/pods/DragAndDropCollectionView)
 [![Platform](https://img.shields.io/cocoapods/p/DragAndDropCollectionView.svg?style=flat)](http://cocoapods.org/pods/DragAndDropCollectionView)
+[![Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)](https://swift.org/)
 
 ## Example
 

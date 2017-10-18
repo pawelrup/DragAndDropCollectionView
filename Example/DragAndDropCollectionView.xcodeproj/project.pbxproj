@@ -14,6 +14,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		BAD59AC01F97D4CA00EF02E0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD59ABE1F97D4C900EF02E0 /* CollectionViewCell.swift */; };
+		BAD59AC11F97D4CA00EF02E0 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD59ABF1F97D4C900EF02E0 /* DataItem.swift */; };
 		E792C3941FCE0C3444891DE0 /* Pods_DragAndDropCollectionView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C65B3E5211F9FCD385ED6554 /* Pods_DragAndDropCollectionView_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +34,7 @@
 		1064C6EB1972614EE441CC2C /* Pods-DragAndDropCollectionView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragAndDropCollectionView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DragAndDropCollectionView_Example/Pods-DragAndDropCollectionView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		16F6FF2DE22B0627910B006A /* Pods-DragAndDropCollectionView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragAndDropCollectionView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DragAndDropCollectionView_Example/Pods-DragAndDropCollectionView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4CA0F64CFB8F7FB342D3B29B /* Pods-DragAndDropCollectionView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragAndDropCollectionView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DragAndDropCollectionView_Tests/Pods-DragAndDropCollectionView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4DAC5D5DCF8C4CAA4AB33C6F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4DAC5D5DCF8C4CAA4AB33C6F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DragAndDropCollectionView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragAndDropCollectionView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +46,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		9CE5BF4832177717BA250789 /* Pods-DragAndDropCollectionView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragAndDropCollectionView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DragAndDropCollectionView_Tests/Pods-DragAndDropCollectionView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BAD59ABE1F97D4C900EF02E0 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		BAD59ABF1F97D4C900EF02E0 /* DataItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
 		C65B3E5211F9FCD385ED6554 /* Pods_DragAndDropCollectionView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DragAndDropCollectionView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3D2053E7EA409F09BB78577 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E069FA1B0A47DAE30A0490DF /* DragAndDropCollectionView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DragAndDropCollectionView.podspec; path = ../DragAndDropCollectionView.podspec; sourceTree = "<group>"; };
+		D3D2053E7EA409F09BB78577 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E069FA1B0A47DAE30A0490DF /* DragAndDropCollectionView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DragAndDropCollectionView.podspec; path = ../DragAndDropCollectionView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				BAD59ABE1F97D4C900EF02E0 /* CollectionViewCell.swift */,
+				BAD59ABF1F97D4C900EF02E0 /* DataItem.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -370,8 +376,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAD59AC01F97D4CA00EF02E0 /* CollectionViewCell.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				BAD59AC11F97D4CA00EF02E0 /* DataItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
