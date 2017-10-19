@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DragAndDropCollectionView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'DragAndDropCollectionView is an extended UICollectionView from which you can drag and drop cells.'
 
 # This description is used to generate tags and improve search results.

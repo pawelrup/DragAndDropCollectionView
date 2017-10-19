@@ -12,6 +12,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+Xcode 9, Swift 4.0
+
 ## Installation
 
 DragAndDropCollectionView is available through [CocoaPods](http://cocoapods.org). To install
@@ -23,7 +25,7 @@ pod 'DragAndDropCollectionView'
 
 ## Author
 
-RupeQ, rupeqdj@gmail.com
+lobocode, pawelrup@lobocode.pl
 
 ## License
 
